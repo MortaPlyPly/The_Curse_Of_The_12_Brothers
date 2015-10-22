@@ -3,10 +3,15 @@ using System.Collections;
 
 public class Trigger : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Dont hurt me onichan");
-        Destroy(gameObject);
+        //Destroy(gameObject);
+        GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity * 2;
+        Vector2 vel = GetComponent<Rigidbody2D>().velocity;
+        vel.y = 0;
+        GetComponent<Rigidbody2D>().velocity = vel;
+
 
         /*Instantiate(explosion, transform.position, transform.rotation);
         gameController.AddScore(scoreValue);
@@ -15,6 +20,6 @@ public class Trigger : MonoBehaviour
             gameController.UpdateLifes(-1, other);
             return;
         }*/
-        Destroy(other.gameObject);
+        //Destroy(other.gameObject);
     }
 }
