@@ -6,6 +6,8 @@ public class Trigger : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Dont hurt me onichan");
+        Debug.Log(Time.time);
+        Debug.Log(other.gameObject.name);
         //Destroy(gameObject);
         GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity * 2;
         Vector2 vel = GetComponent<Rigidbody2D>().velocity;
