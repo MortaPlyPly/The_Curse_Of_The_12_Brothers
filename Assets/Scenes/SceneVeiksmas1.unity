@@ -97,8 +97,8 @@ GameObject:
   - 4: {fileID: 109239992}
   - 114: {fileID: 109239993}
   - 50: {fileID: 109239994}
-  m_Layer: 0
-  m_Name: Dangus
+  m_Layer: 17
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,8 +156,8 @@ GameObject:
   - 4: {fileID: 329422612}
   - 114: {fileID: 329422611}
   - 50: {fileID: 329422613}
-  m_Layer: 0
-  m_Name: Horizontas4
+  m_Layer: 17
+  m_Name: Horizont4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -214,8 +214,8 @@ GameObject:
   - 4: {fileID: 408928135}
   - 114: {fileID: 408928136}
   - 50: {fileID: 408928137}
-  m_Layer: 0
-  m_Name: Kalnas
+  m_Layer: 17
+  m_Name: Mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -273,8 +273,8 @@ GameObject:
   - 4: {fileID: 429992411}
   - 114: {fileID: 429992412}
   - 50: {fileID: 429992413}
-  m_Layer: 0
-  m_Name: Horizontas1
+  m_Layer: 17
+  m_Name: Horizont1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,7 +331,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 687083133}
   - 212: {fileID: 687083134}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: b1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,8 +386,8 @@ GameObject:
   - 4: {fileID: 803800696}
   - 114: {fileID: 803800697}
   - 50: {fileID: 803800698}
-  m_Layer: 0
-  m_Name: Horizontas3
+  m_Layer: 17
+  m_Name: Horizont3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,7 +444,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 904019120}
   - 212: {fileID: 904019121}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: b4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 2f694d551793c8844aff0b27dcdd7b3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &955886249
@@ -583,7 +583,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1244610436}
   - 212: {fileID: 1244610437}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: b3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -625,7 +625,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2ecc6475102a1114d883c2684081788f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1390367293
@@ -637,7 +637,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1390367294}
   - 212: {fileID: 1390367295}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: b2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 09038caa069b20d46a5626201092f777, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1515204837
@@ -691,7 +691,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1515204838}
   - 212: {fileID: 1515204839}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: b5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,7 +733,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 4e94d5a8cbad54f49b77c7090b88c4ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1569591706
@@ -746,8 +746,8 @@ GameObject:
   - 4: {fileID: 1569591707}
   - 114: {fileID: 1569591708}
   - 50: {fileID: 1569591709}
-  m_Layer: 0
-  m_Name: Horizontas2
+  m_Layer: 17
+  m_Name: Horizont2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -803,8 +803,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1577753072}
-  m_Layer: 0
-  m_Name: Fonas
+  m_Layer: 17
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
