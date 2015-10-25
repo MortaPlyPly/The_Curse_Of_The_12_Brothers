@@ -5,15 +5,12 @@ public class Trigger : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Dont hurt me onichan");
-        Debug.Log(Time.time);
-        Debug.Log(other.gameObject.name);
+        Debug.Log("Game information: " + gameObject.name + "collided with " + other.name);
         //Destroy(gameObject);
         GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity * 2;
         Vector2 vel = GetComponent<Rigidbody2D>().velocity;
         vel.y = 0;
         GetComponent<Rigidbody2D>().velocity = vel;
-
 
         /*Instantiate(explosion, transform.position, transform.rotation);
         gameController.AddScore(scoreValue);
@@ -23,5 +20,7 @@ public class Trigger : MonoBehaviour
             return;
         }*/
         //Destroy(other.gameObject);
+
+       Camera.main.GetComponent<PerlinShake>().PlayShake();
     }
 }
