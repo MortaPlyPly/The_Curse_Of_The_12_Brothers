@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class JudejimasKalnas : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class JudejimasKalnas : MonoBehaviour
+{
+	public float speed;
+	public float stop;
 	
+	void Start()
+	{
+		GetComponent<Rigidbody2D>().velocity = Vector2.left * speed;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void FixedUpdate()
+	{
+		if (GetComponent<Transform> ().position.x < stop)
+		{
+			GetComponent<Rigidbody2D>().velocity = Vector2.left * 0;
+		}
 	}
 }
