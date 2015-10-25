@@ -156,13 +156,14 @@ GameObject:
   - 4: {fileID: 329422612}
   - 114: {fileID: 329422611}
   - 50: {fileID: 329422613}
+  - 114: {fileID: 329422614}
   m_Layer: 17
   m_Name: Horizont4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &329422611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +205,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &329422614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329422610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5020d4c62e6e640bfe741532143ca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g1: {fileID: 143390, guid: 19aed3c00b0c60e4698723381b95cc81, type: 2}
+  g2: {fileID: 155052, guid: 5fe40f4e136c139499b0ffb93eecd667, type: 2}
+  g3: {fileID: 147544, guid: 4d69ae85acc05dc44b22aac53f70a47e, type: 2}
 --- !u!1 &408928134
 GameObject:
   m_ObjectHideFlags: 0
