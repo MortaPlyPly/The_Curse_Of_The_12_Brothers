@@ -118,6 +118,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   stop: -135
+  slowStart1: -67
+  slowStop1: -100
+  slowSpeed: 1
 --- !u!61 &91378205
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -202,6 +205,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   stop: 0
+  slowStart1: 0
+  slowStop1: 0
+  slowSpeed: 0
 --- !u!50 &109239994
 Rigidbody2D:
   serializedVersion: 2
@@ -249,6 +255,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   stop: 0
+  slowStart1: 0
+  slowStop1: 0
+  slowSpeed: 0
 --- !u!4 &329422612
 Transform:
   m_ObjectHideFlags: 0
@@ -335,6 +344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: .0700000003
   stop: -1.29999995
+  slowStart1: -1
+  slowStop1: -1.79999995
+  slowSpeed: .0242999997
 --- !u!50 &408928137
 Rigidbody2D:
   serializedVersion: 2
@@ -394,6 +406,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: .600000024
   stop: -4
+  slowStart1: 9
+  slowStop1: 3
+  slowSpeed: .181999996
 --- !u!50 &429992413
 Rigidbody2D:
   serializedVersion: 2
@@ -507,6 +522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   stop: -135
+  slowStart1: -67
+  slowStop1: -100
+  slowSpeed: 1
 --- !u!50 &803800698
 Rigidbody2D:
   serializedVersion: 2
@@ -867,6 +885,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.29999995
   stop: -54
+  slowStart1: -24
+  slowStop1: -38
+  slowSpeed: .430000007
 --- !u!50 &1569591709
 Rigidbody2D:
   serializedVersion: 2
