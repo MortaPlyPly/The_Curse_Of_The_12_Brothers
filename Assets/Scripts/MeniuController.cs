@@ -12,6 +12,7 @@ public class MeniuController : MonoBehaviour {
 	public Image i;
 	public Text t1;
 	public Text t2;
+	public Image logo;
 
 	void Start()
 	{
@@ -23,9 +24,11 @@ public class MeniuController : MonoBehaviour {
 		i = i.GetComponent<Image> ();
 		t1 = t1.GetComponent<Text> ();
 		t2 = t2.GetComponent<Text> ();
+		logo = logo.GetComponent<Image> ();
 		i.enabled = false;
 		t1.enabled = false;
 		t2.enabled = false;
+		logo.enabled = false;
 	}
 
 	public void Play()
@@ -51,6 +54,7 @@ public class MeniuController : MonoBehaviour {
 		exit.enabled = false;
 		i.enabled = true;
 		t2.enabled = true;
+		logo.enabled = true;
 	}
 
 	public void Exit ()
@@ -78,6 +82,7 @@ public class MeniuController : MonoBehaviour {
 			controls.enabled = true;
 			credits.enabled = true;
 			exit.enabled = true;
+			logo.enabled = false;
 		}
 	}
 }
