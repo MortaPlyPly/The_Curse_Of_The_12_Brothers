@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Trigger : MonoBehaviour
+public class BushTrigger : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -11,6 +11,7 @@ public class Trigger : MonoBehaviour
         Vector2 vel = GetComponent<Rigidbody2D>().velocity;
         vel.y = 0;
         GetComponent<Rigidbody2D>().velocity = vel;
+        GetComponent<AudioSource>().Play();
 
         /*Instantiate(explosion, transform.position, transform.rotation);
         gameController.AddScore(scoreValue);
@@ -21,6 +22,6 @@ public class Trigger : MonoBehaviour
         }*/
         //Destroy(other.gameObject);
 
-       Camera.main.GetComponent<PerlinShake>().PlayShake();
+        //Camera.main.GetComponent<PerlinShake>().PlayShake();
     }
 }
