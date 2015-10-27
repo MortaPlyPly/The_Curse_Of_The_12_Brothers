@@ -1,23 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RandomGen : MonoBehaviour {
-
-
-	public GameObject g1;
-	public GameObject g2;
-	public GameObject g3;
-	public Vector2 spawnValues;
-
+public class RandomGen : MonoBehaviour
+{	
+	public GameObject g;
+	public float range;
+	public float count;
+	public float size;
+	public float y;
+	
 	void Start ()
 	{
-		SpawnObject (g1);
-		SpawnObject (g2);
-		SpawnObject (g3);
-	}
-
-	void SpawnObject (GameObject o)
-	{
-		//Vector2 spawnPosition = new Vector2 (Random.Range(-spawnValues.x,));
+		g.GetComponent<Transform>().localScale = new Vector3(size, size, size);
+		
+		for (var i = 0; i < count; i++)
+		{
+			Vector3 position = new Vector3(Random.Range(-range, range), y);
+			Instantiate(g ,position, Quaternion.identity);
+		}
 	}
 }
