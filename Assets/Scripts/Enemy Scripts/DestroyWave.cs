@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PaskutiniasMiglespakeitimas : MonoBehaviour {
+public class DestroyWave : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
 	
+		Destroy (gameObject, 1);
 	}
 	
 	// Update is called once per frame

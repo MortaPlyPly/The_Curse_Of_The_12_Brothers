@@ -3,9 +3,12 @@ using System.Collections;
 
 public class GirlController : MonoBehaviour {
 
-    public int speed;
-    public int jumpForce;
+    public int speed = 10000;
+    public int jumpForce = 35000;
     public bool isOnGround = false;
+    public int lifes = 100;
+    public int dealDemage = 1;
+
     public GameObject shot;
     public GameObject shotSpawn;
 	// Use this for initialization
@@ -39,6 +42,7 @@ public class GirlController : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        isOnGround = true;
+        if(coll.gameObject.tag == "Ground")
+            isOnGround = true;
     }
 }
